@@ -148,3 +148,4 @@ C:\Users\trvag\OneDrive\Desktop\tradeflow\backend\obj\Debug\net8.0\refint\backen
 C:\Users\trvag\OneDrive\Desktop\tradeflow\backend\obj\Debug\net8.0\backend.pdb
 C:\Users\trvag\OneDrive\Desktop\tradeflow\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\trvag\OneDrive\Desktop\tradeflow\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\trvag\OneDrive\Desktop\tradeflow\backend\obj\Debug\net8.0\backend.sourcelink.json
