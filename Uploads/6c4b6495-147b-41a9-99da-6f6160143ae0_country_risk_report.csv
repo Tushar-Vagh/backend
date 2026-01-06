@@ -1,0 +1,8 @@
+Country,Region,Risk Rating,Exposure Limit,Current Exposure
+Afghanistan,Asia,Sanctioned,10000000,6374863
+Iran,Asia,High,10000000,5861313
+North Korea,Asia,Sanctioned,10000000,3743114
+Russia,Asia,High,10000000,7199039
+Pakistan,Asia,Medium,10000000,4913556
+India,Asia,Low,10000000,517249
+USA,Asia,Low,10000000,7804489

@@ -1,0 +1,7 @@
+C:\Users\trvag\OneDrive\Desktop\tradeflow\backend\obj\Debug\net9.0\backend.csproj.AssemblyReference.cache
+C:\Users\trvag\OneDrive\Desktop\tradeflow\backend\obj\Debug\net9.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trvag\OneDrive\Desktop\tradeflow\backend\obj\Debug\net9.0\backend.AssemblyInfoInputs.cache
+C:\Users\trvag\OneDrive\Desktop\tradeflow\backend\obj\Debug\net9.0\backend.AssemblyInfo.cs
+C:\Users\trvag\OneDrive\Desktop\tradeflow\backend\obj\Debug\net9.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\trvag\OneDrive\Desktop\tradeflow\backend\obj\Debug\net9.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\trvag\OneDrive\Desktop\tradeflow\backend\obj\Debug\net9.0\backend.MvcApplicationPartsAssemblyInfo.cache
