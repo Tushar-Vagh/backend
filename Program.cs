@@ -16,10 +16,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // ---------------- CORS ----------------
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowFrontend", policy =>
+    options.AddPolicy("AllowAll", policy =>
     {
         policy
-            .WithOrigins("http://localhost:8080")
+            .AllowAnyOrigin()
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
@@ -119,7 +119,7 @@ app.UseSwaggerUI();
 
 app.UseRouting();
 
-app.UseCors("AllowFrontend");
+app.UseCors("AllowAll");
 
 app.UseAuthentication();
 app.UseAuthorization();
