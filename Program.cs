@@ -7,6 +7,10 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+var cs = builder.Configuration.GetConnectionString("DefaultConnection");
+Console.WriteLine("==== DB CONNECTION STRING ====");
+Console.WriteLine(cs ?? "NULL");
+Console.WriteLine("==============================");
 
 // ---------------- DATABASE ----------------
 builder.Services.AddDbContext<AppDbContext>(options =>
