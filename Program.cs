@@ -15,7 +15,12 @@ Console.WriteLine("==============================");
 // ---------------- DATABASE ----------------
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection")));
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        sql => sql.EnableRetryOnFailure()
+    )
+);
+
+
 
 // ---------------- CORS ----------------
 builder.Services.AddCors(options =>
