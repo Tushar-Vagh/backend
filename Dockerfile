@@ -25,7 +25,6 @@ ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 8080
 
 
-RUN sed -i 's/DEFAULT@SECLEVEL=2/DEFAULT@SECLEVEL=1/g' /etc/ssl/openssl.cnf
 
 
 ENTRYPOINT ["dotnet", "backend.dll"]
